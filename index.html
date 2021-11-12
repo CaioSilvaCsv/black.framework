@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cores</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-indigo-100">
-    <div class="grid grid-cols-1 lg:grid-cols-2">
-        <div class="bg-blue-600 lg:min-h-screen lg:flex lg:items-center p-8 sm:p-12">
-            <div class="felx-grow">
-                <h1 class="text-white text-center text-2xl sm:text-5xl mb-2">
-                    Teste
-                </h1>
-                <p class="text-center text-blue-200 sm:text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse 
-                    incidunt necessitatibus consequatur ipsa. Facilis aperiam totam 
-                    architecto consequatur molestiae nulla dolorum, distinctio a rerum c
-                    um? Quaerat neque qui quo illo.
-                </p>
-            </div>
-        </div>
-        <div class="lg:min-h-screen lg:flex lg:items-center p-12 lg:p-24 xl:p-48">
-            <div class="flex-grow bg-white shadow-xl rounded-md border border-gray-300 p-8">
-                <div class="sm:flex sm:items-center">
-                    <img src="images/instagram.jpg" alt="Instagram logo" class="sm:flex-shrink-0 mx-auto h-24 rounded-full">
-                    <div class="sm:ml-4 sm:text-left text-center">
-                        <p class="text-xl">Testizinho</p>
-                        <p class="text-sm text-gray-600"> Gerencia</p>
-                        <div class="mt-4">
-                            <button type="button" class="text-red-500 hover:text-white hover:bg-red-500 border border-red-500 font-semibold rounded-md text-xs px-4 py-1 outline-none">
-                                Testizinho
-                            </button>
-                        </div>
 
-                    </div>
-                </div>
-                <div>
-                    <form class="flex- w-full mt-8">
-                        <input type="password" placeholder="Sua senha" class="flex-1 w-full text-gray-700 bg-gray-200 rounded-md hover:bg-white border-gray-200 outline-none focus:bg-white py-2 px-4">
-                        <button type="button" class="flex-shrink-0 btn btn-teal ml-4">
-                            Entrar
-                        </button>
-                    </form>
-                </div>
-            </div>
+<body>
+    <header class=" bg-gray-500 text-white flex flex-wrap justify-between items-center sm:text-center">
+        <p class="mx-5 sm:items-center">
+            Black preparativos
+        </p>
+        <div>
+            <nav>
+                <ul class=" flex m-2 p-2">
+                    <li><a href="index.html" rel="next" target="_self" class="mx-2">Início</a></li>
+                    <li><a href="melhorsite.html" rel="next" target="_self" class="mx-2">Melhores sites</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class=" text-3xl text-center m-3">
+        Melhores sites para não perder promoção
+    </h1>
+    <div class="grid grid-cols-1 lg:grid-cols-4 justify-items-center text-justify">
+        <div class=" w-4/5 shadow-xl rounded-md border border-gray-400 p-8 items-center my-10">
+            <a href="https://www.promobit.com.br/" rel="external" target="_blank"><img src="images/promobit.png"
+                    alt="Promobit Logo"></a>
+            <p>
+                O Promobit é uma plataforma que oferece preços informados pelos os próprios
+                usuários e fornecendo também cupons para que na hora da compra o valor do
+                produto venha a diminuir. Além de também salvar alertas de promoções para
+                departamentos caso você não tenha um produto certo definido.
+            </p>
+        </div>
+        <div class="w-4/5 shadow-xl rounded-md border border-gray-400 p-8 items-center my-10">
+            <a href="https://www.zoom.com.br/" rel="external" target="_blank"><img src="images/zoom.png"
+                    alt="zoom logo" class="flex"></a></a>
+            <p>
+                O Zoom.com.br é um site que junta os melhores preços disponiveis no mercado
+                e-commerce e lhe trás uma grande lista de valores e também fornece cashback
+                para todos os usuarios do site. Além de listas de preços ele também é um
+                blog que faz review de produtos, e faz comparativos.
+            </p>
+        </div>
+        <div class="w-4/5 shadow-xl rounded-md border border-gray-400 p-8 items-center my-10">
+            <a href="https://www.buscape.com.br/" rel="external" target="_blank"><img src="images/buscape.png"
+                    alt="Buscapé logo" class="flex m-auto"></a></a>
+            <p>
+                O Buscapé é um sítio/site de serviços gratuitos de busca
+                de produtos e pesquisa de preços, além de um centro de comércio
+                virtual, onde se pode comprar produtos de várias lojas diferentes,
+                desde o segundo semestre de 2017.
+                <a href="https://pt.wikipedia.org/wiki/Buscap%C3%A9" rel="external"
+                target="_blank" class="text-blue-500">Wikipédia</a>
+            </p>
+        </div>
+        <div class="w-4/5 shadow-xl rounded-md border border-gray-400 p-8 items-center my-10">
+            <a href="https://ofertas.canaltech.com.br/" rel="external" target="_blank"><img src="images/ct-ofertas.png"
+                    alt="Buscapé logo" class="flex m-auto"></a></a>
+            <p>
+                O Canaltech é um site de tecnologia, com informações sobre jogos 
+                eletrônicos, notícias, entrevistas, análises de aparelhos móveis, 
+                dicas, tutoriais e aplicativos.
+                <a href="https://pt.wikipedia.org/wiki/Canaltech" rel="external"
+                target="_blank" class="text-blue-500">Wikipédia</a>
+            </p>
         </div>
     </div>
 </body>
+
 </html>
